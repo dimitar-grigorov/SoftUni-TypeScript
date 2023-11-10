@@ -1,3 +1,6 @@
+// cd "$(git rev-parse --show-toplevel)/01-Type-System/Demo"
+// tsc && node dist/app.js
+
 //01. String and number
 let greetingsMessage: string = "Hello";
 greetingsMessage = "Ok";
