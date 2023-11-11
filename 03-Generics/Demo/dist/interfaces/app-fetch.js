@@ -1,6 +1,6 @@
 "use strict";
 // cd "$(git rev-parse --show-toplevel)/03-Generics/Demo"
-// tsc && node dist/app-fetch.js
+// tsc && node dist/interfaces/app-fetch.js
 const USERS_URL = "https://jsonplaceholder.typicode.com/posts";
 function getUsers() {
     fetch(USERS_URL, { method: "GET" })

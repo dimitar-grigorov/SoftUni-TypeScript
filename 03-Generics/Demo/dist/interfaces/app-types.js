@@ -1,6 +1,6 @@
 "use strict";
 // cd "$(git rev-parse --show-toplevel)/03-Generics/Demo"
-// tsc && node dist/app-types.js
+// tsc && node dist/interfaces/app-types.js
 function getMammal() {
     const dog = {
         name: "Johny",

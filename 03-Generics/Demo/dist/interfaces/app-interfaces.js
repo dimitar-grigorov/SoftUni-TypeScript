@@ -1,6 +1,6 @@
 "use strict";
 // cd "$(git rev-parse --show-toplevel)/03-Generics/Demo"
-// tsc && node dist/app-interfaces.js
+// tsc && node dist/interfaces/app-interfaces.js
 // Can be implemented by a class
 class Person {
     constructor(firstName, lastName, legsCount, skinColor) {
