@@ -1,5 +1,5 @@
 // cd "$(git rev-parse --show-toplevel)/01-Type-System/Lab"
-// tsc && node dist/app.js
+// tsc && node dist/solutions.js
 
 // 01. Hello World
 console.log("01.Hello World");
