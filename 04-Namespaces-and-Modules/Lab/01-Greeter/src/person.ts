@@ -21,7 +21,7 @@ class Person implements Greeter.Greeting<string> {
   }
 }
 
-// Example of usage
+// Example usage
 let p = new Person("Ivan Ivanov", 25);
 console.log(p.introduction());
 console.log(p.sayGoodbye("Petar Petrov"));
