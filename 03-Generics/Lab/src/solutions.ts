@@ -67,18 +67,15 @@ class CarDealership<T extends string | number>
   dealershipName: T;
   soldCars: number;
   modelsSold: Record<T, T>;
-  //modelsSold: Map<T, T>; // Map
 
   constructor(dealershipName: T) {
     this.dealershipName = dealershipName;
     this.soldCars = 0;
     this.modelsSold = {} as Record<T, T>;
-    //this.modelsSold = new Map<T, T>(); // Map
   }
 
   sellCar(dealerID: T, model: T): void {
     this.modelsSold[dealerID] = model;
-    //this.modelsSold.set(dealerID, model); // Map
     this.soldCars++;
   }
 
@@ -87,9 +84,6 @@ class CarDealership<T extends string | number>
     for (const dealerID in this.modelsSold) {
       details += `${dealerID} sold ${this.modelsSold[dealerID]}\n`;
     }
-    //for (const [dealerID, model] of this.modelsSold) { // Map
-    //details += `${dealerID} sold ${model}\n`;
-    //}
     return details;
   }
 }

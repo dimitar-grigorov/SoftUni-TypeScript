@@ -36,16 +36,13 @@ console.log(c.compare("b")); // 2
 let d = new CompareElements([1, 2, 3, 4, 5, 1, 1]);
 console.log(d.compare(1));
 class CarDealership {
-    //modelsSold: Map<T, T>; // Map
     constructor(dealershipName) {
         this.dealershipName = dealershipName;
         this.soldCars = 0;
         this.modelsSold = {};
-        //this.modelsSold = new Map<T, T>(); // Map
     }
     sellCar(dealerID, model) {
         this.modelsSold[dealerID] = model;
-        //this.modelsSold.set(dealerID, model); // Map
         this.soldCars++;
     }
     showDetails() {
@@ -53,9 +50,6 @@ class CarDealership {
         for (const dealerID in this.modelsSold) {
             details += `${dealerID} sold ${this.modelsSold[dealerID]}\n`;
         }
-        //for (const [dealerID, model] of this.modelsSold) { // Map
-        //details += `${dealerID} sold ${model}\n`;
-        //}
         return details;
     }
 }
