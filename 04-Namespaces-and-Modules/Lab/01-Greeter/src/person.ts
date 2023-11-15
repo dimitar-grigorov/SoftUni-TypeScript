@@ -1,4 +1,4 @@
-// cd "$(git rev-parse --show-toplevel)/04-Namespaces-and-Modules/Lab/01-Task"
+// cd "$(git rev-parse --show-toplevel)/04-Namespaces-and-Modules/Lab/01-Greeter"
 // tsc && node dist/person.js
 
 import Greeter from "./greeter";
