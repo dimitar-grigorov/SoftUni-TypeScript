@@ -29,3 +29,43 @@
 `tsc --noEmit`
 **Run the app**
 `tsc && node dist/app.js`
+
+## 04. Namespaces and Modules
+
+### Namespaces vs Modules
+
+- Namespaces are used to organize code into logical groups and prevent name collisions. They are executed when they are defined.
+- Modules are used to organize code into logical groups and prevent name collisions. They are executed when they are imported.
+
+### Namespaces
+
+```bash
+cd "$(git rev-parse --show-toplevel)/04-Namespaces-and-Modules/Demo/namespaces/"
+tsc --init
+```
+
+### Modules
+
+```bash
+cd "$(git rev-parse --show-toplevel)/04-Namespaces-and-Modules/Demo/modules/"
+tsc --init
+npm init -y
+npm i typescript -D
+# create index.ts
+npm run build
+```
+
+### Bundles (Webpack)
+
+```bash
+cd "$(git rev-parse --show-toplevel)/04-Namespaces-and-Modules/Demo/skeleton/"
+tsc --init
+npm init -y
+npm i webpack webpack-cli webpack-dev-server typescript ts-loader -D
+npm run build
+npm run dev
+
+# After the skeleton is created
+npm i
+npm run dev
+```
