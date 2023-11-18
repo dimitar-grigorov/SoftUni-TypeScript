@@ -1,3 +1,6 @@
+// cd "$(git rev-parse --show-toplevel)/06-Workshop/"
+// npm run build
+
 import { CONFIG } from "./constants";
 import { router } from "./router";
 import { PostsService } from "./services/postService";
