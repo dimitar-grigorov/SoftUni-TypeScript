@@ -69,3 +69,9 @@ npm run dev
 npm i
 npm run dev
 ```
+
+## 06. Workshop
+
+```bash
+cd "$(git rev-parse --show-toplevel)/06-Workshop/"
+npm run build
