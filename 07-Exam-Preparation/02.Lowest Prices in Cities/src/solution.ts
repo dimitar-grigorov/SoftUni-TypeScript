@@ -1,5 +1,5 @@
 //cd .. && cd "02.Lowest Prices in Cities"
-//tsc && node ./dist/solution.js
+//tsc && node ./dist/index.js
 
 type PriceInfo = {
   price: number;

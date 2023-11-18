@@ -2,14 +2,18 @@
 //cd .. && cd "02.Lowest Prices in Cities"
 //tsc && node ./dist/solution.js
 function lowestPricesInCities(input) {
+    // Create a dictionary of products
     const products = {};
+    // Fill the dictionary with products
     for (const line of input) {
         const [town, product, price] = line.split(" | ");
         const priceInfo = { price: Number(price), town };
+        // If the product is not in the dictionary, add it
         if (!products[product]) {
             products[product] = priceInfo;
         }
         else {
+            // If the product is in the dictionary, compare the prices
             if (priceInfo.price < products[product].price) {
                 products[product] = priceInfo;
             }
