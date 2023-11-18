@@ -3,6 +3,18 @@
 [Course Link](https://softuni.bg/trainings/4343/typescript-october-2023)
 [Instructor's repository](https://github.com/tsvetis/TypeScript-OCT-2023)
 
+## Course Topics
+
+- Type System: Dive into TypeScript's robust type system.
+- OOP: Grasp Object-Oriented Programming principles.
+- Generics: Understand the versatility of generic programming.
+- Namespaces and Modules: Learn to organize code efficiently.
+- Decorators: Extend the functionality of your code.
+- Workshop: Build a real-world TypeScript application.
+- Exam Preparation: Prepare for the TypeScript exam.
+
+## Notes
+
 ## 01. Type System
 
 **Install TypeScript**
