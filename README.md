@@ -1,4 +1,4 @@
-# TypeScript Course Notes
+# TypeScript SoftUni Course Notes
 
 [Course Link](https://softuni.bg/trainings/4343/typescript-october-2023)
 [Instructor's repository](https://github.com/tsvetis/TypeScript-OCT-2023)
